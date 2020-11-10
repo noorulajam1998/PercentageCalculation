@@ -1,0 +1,128 @@
+body{
+    background-color: rgba(124, 21, 21, 0.925);
+}
+#topheading{
+    color: rgb(250, 249, 243);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+}
+#maincontainer
+{
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 350px;
+    width: 700px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#lasttext
+{
+    color: white;
+    font-weight: bolder;
+    margin-top: -50px;
+    margin-left: 25px;
+    font-size: 35px;
+}
+
+
+
+.form-style-4 input[type=number],
+.form-style-4 input[type=number],
+.form-style-4 input[type=number],
+.form-style-4 input[type=number],
+.form-style-4 textarea,
+.form-style-4 label
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #fff;
+
+}
+.form-style-4 label > span{
+	
+    width: 150px;
+    width: 80px;
+    margin-left: 350px;
+}
+.form-style-4 input[type=number],
+.form-style-4 input[type=number] 
+{
+	background: transparent;
+    border: none;
+    color:white;
+	border-bottom: 1px dashed #83A4C5;
+    width: 150px;
+    margin-left: 50px;
+	outline: none;
+    margin-top: 20px;
+    font-style: italic;
+    
+}
+.form-style-4 textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 150px;
+	overflow: hidden;
+	resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus, 
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+	border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+	background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #A8BACE;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+
+
+
+
+.subCalbtn {
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:29px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+    font-family:Arial;
+    margin-top: 40px;
+    margin-left: 480px;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 31px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #ffffff;
+}
+.subCalbtn:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.subCalbtn:active {
+	position:relative;
+	top:1px;
+}

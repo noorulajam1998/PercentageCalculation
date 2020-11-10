@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Cal.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+<h1 id="topheading">PERCENTAGE CALCULATOR FOR STUDENTS</h1>
+
+<div id="maincontainer">
+    
+<div class="centered">
+    <form class="form-style-4" action="" method="post">
+        <label for="field1">
+        <span>Subject : 1</span><input type="number" placeholder="Enter Number" name="field1" required="true" id="sub1"/>
+        </label>
+        <label for="field2">
+        <span>Subject : 2</span><input type="number" placeholder="Enter Number" name="field2" required="true" id="sub2" />
+        </label>
+        <label for="field3">
+        <span>Subject : 3</span><input type="number" placeholder="Enter Number" name="field3" required="true" id="sub3"/>
+        </label>
+        <label for="field4">
+        <span>Subject : 4</span><input type="number" placeholder="Enter Number" name="field3" required="true" id="sub4"/>
+        </label>
+         <label for="field5">
+        <span>Subject : 5</span><input type="number" placeholder="Enter Number" name="field3" required="true" id="sub5"/>
+        </label>
+        </form>
+        <input class="subCalbtn" onclick="calculation()"  type="button" value="Calculate" id="btncal">
+        <div>
+            <p id="lasttext"></p>
+        </div>
+</div>
+   
+
+
+</body>
+</html>
